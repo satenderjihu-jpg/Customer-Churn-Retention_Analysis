@@ -256,7 +256,7 @@ Customer-Churn-Retention-Analysis/
 ├── customer_churn_raw.csv
 │
 └── images/
-    └──<img width="892" height="504" alt="image" src="https://github.com/user-attachments/assets/ec701ac1-da9c-4862-915b-59468307e325" />
+    └──
 
 
 
