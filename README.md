@@ -62,7 +62,7 @@ The analysis covered:
 
 * Overall customer churn and retention.
 * Churn by contract type.
-* Churn by geographical region.
+* Churn by region.
 * Churn by senior citizen status.
 * Churn by internet service.
 * Churn across customer tenure groups.
