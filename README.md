@@ -18,6 +18,35 @@ The goal is to identify customer segments with higher churn rates, understand im
 * Identify high-risk customer segments.
 * Develop data-driven recommendations for improving customer retention.
 
+## 📂 Dataset Overview
+
+The dataset contains **50,000 customer records and 19 columns**.
+
+It includes customer demographics, account information, service details, billing information, support activity, and churn status.
+
+| Column Name         | Description                                                |
+| ------------------- | ---------------------------------------------------------- |
+| `customer_id`       | Unique identifier assigned to each customer                |
+| `signup_date`       | Date when the customer signed up                           |
+| `region`            | Geographical region of the customer                        |
+| `age`               | Customer's age                                             |
+| `senior_citizen`    | Indicates whether the customer is a senior citizen         |
+| `partner`           | Indicates whether the customer has a partner               |
+| `dependents`        | Indicates whether the customer has dependents              |
+| `tenure_months`     | Number of months the customer has stayed with the company  |
+| `contract_type`     | Type of contract selected by the customer                  |
+| `internet_service`  | Internet service used by the customer                      |
+| `payment_method`    | Method used to make payments                               |
+| `monthly_charges`   | Monthly amount charged to the customer                     |
+| `total_charges`     | Total charges accumulated by the customer                  |
+| `support_tickets`   | Number of support tickets raised by the customer           |
+| `online_security`   | Indicates whether the customer has online security service |
+| `tech_support`      | Indicates whether the customer has technical support       |
+| `paperless_billing` | Indicates whether the customer uses paperless billing      |
+| `churn_flag`        | Indicates whether the customer has churned                 |
+| `churn_date`        | Date when the customer churned, where applicable           |
+
+
 ## 🛠️ Tools & Technologies
 
 | Tool                       | Purpose                                                                |
@@ -101,34 +130,6 @@ The dashboard presents key performance indicators and visual comparisons that he
 ### Phase 5: Business Recommendations
 
 The findings from the SQL analysis, Python EDA, and Power BI dashboard were used to develop recommendations focused on customer retention and high-risk segments.
-
-## 📂 Dataset Overview
-
-The dataset contains **50,000 customer records and 19 columns**.
-
-It includes customer demographics, account information, service details, billing information, support activity, and churn status.
-
-| Column Name         | Description                                                |
-| ------------------- | ---------------------------------------------------------- |
-| `customer_id`       | Unique identifier assigned to each customer                |
-| `signup_date`       | Date when the customer signed up                           |
-| `region`            | Geographical region of the customer                        |
-| `age`               | Customer's age                                             |
-| `senior_citizen`    | Indicates whether the customer is a senior citizen         |
-| `partner`           | Indicates whether the customer has a partner               |
-| `dependents`        | Indicates whether the customer has dependents              |
-| `tenure_months`     | Number of months the customer has stayed with the company  |
-| `contract_type`     | Type of contract selected by the customer                  |
-| `internet_service`  | Internet service used by the customer                      |
-| `payment_method`    | Method used to make payments                               |
-| `monthly_charges`   | Monthly amount charged to the customer                     |
-| `total_charges`     | Total charges accumulated by the customer                  |
-| `support_tickets`   | Number of support tickets raised by the customer           |
-| `online_security`   | Indicates whether the customer has online security service |
-| `tech_support`      | Indicates whether the customer has technical support       |
-| `paperless_billing` | Indicates whether the customer uses paperless billing      |
-| `churn_flag`        | Indicates whether the customer has churned                 |
-| `churn_date`        | Date when the customer churned, where applicable           |
 
 ## 📊 Key Performance Indicators
 
@@ -241,28 +242,6 @@ Based on the analysis, the following actions could help improve customer retenti
 5. **Review Payment Experiences:** Investigate the higher observed churn among electronic check users before deciding on payment-related improvements.
 
 6. **Measure Retention Campaign Performance:** Compare churn rates before and after retention initiatives to evaluate their effectiveness.
-
-## 🗂️ Repository Structure
-
-The repository can be organized as follows:
-
-Customer-Churn-Retention-Analysis/
-│
-├── README.md
-├── customer_churn_cleaning.csv
-├── customer_churn_Analysis.sql
-├── customers_churn & Retention_Analysis.ipynb
-├── Customer_Churn_Retention_Analysis.pbit
-├── customer_churn_raw.csv
-│
-└── images/
-    └──
-
-
-
-*The filenames above are suggested names. Replace them with your actual filenames, and include only files that you upload.*
-
-If the dataset cannot be redistributed, do not upload the CSV. Instead, provide appropriate instructions for obtaining or reproducing the data.
 
 ## 🏁 Conclusion
 
